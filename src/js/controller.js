@@ -13,9 +13,6 @@ import { async } from "regenerator-runtime";
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
-if (module.hot) {
-  module.hot.accept();
-}
 
 const controlRecipes = async function () {
   try {
