@@ -130,16 +130,7 @@ const conrollAddRecipe = async function (newRecipe) {
   }
   // Upload the new Recipe data
 };
-// const controllDeletRecipe = function (){
-//   if(model.state.recipe.key){
-//     model.state.recipe.id = ``;
-//     console.log(`hey`);
-//     console.log(`#${model.state.recipe.id}`);
-//     // window.history.replaceState(null, '', `#${model.state.recipe.id}`);
-//     console.log(model.state.recipe);
-//     recipeView.update(model.state.recipe);
-//   }
-// }
+
 
 const controllAddIngridient = async function () {
   try{
